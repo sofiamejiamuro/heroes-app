@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { HeroesList } from '../heroes/HeroesList';
 
 export const MarvelScreen = () => {
+
   return (
-    <div>
-      <h1>Marvel</h1>
-    </div>
+    <>
+      <h1>Marvel Comics Heroes</h1>
+      <hr/>
+      <HeroesList publisher="Marvel Comics"/>
+    </>
   );
+
 };
